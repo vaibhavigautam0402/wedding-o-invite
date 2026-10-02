@@ -41,7 +41,7 @@ if (this.value === 'Regretfully cannot attend') {
 });
 
 function updateCountdown() {
-const weddingDate = new Date('November 5, 2026 10:00:00').getTime();
+const weddingDate = new Date('November 5, 2026 10:30:00').getTime();
 const now = new Date().getTime();
 const distance = weddingDate - now;
 
